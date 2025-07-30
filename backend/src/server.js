@@ -14,7 +14,7 @@ const app = express();
 //Middleware: func between req-res chain. Server side process before going to route.
 //ex: auth check or rate limiting.
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"http://13.201.74.231:5173",
 }));
 app.use(express.json());
 app.use(async(req,res,next) => {

@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Routes } from 'react-router';
 import { Homepage } from "./pages/Homepage";
 import { Createpage } from "./pages/Createpage";
-import { Chatpage } from "./pages/Chatpage";
 import  NoteDetailpage  from "./pages/NoteDetailpage";
 import toast from "react-hot-toast";
 import './index.css';

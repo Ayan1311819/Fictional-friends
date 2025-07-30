@@ -21,7 +21,7 @@ export const Createpage = () => {
     }
     setLoading(true);
     try{
-      await axios.post("http://localhost:5001/api/notes", {
+      await axios.post("http://13.201.74.231:5001/api/notes", {
         title, 
         content
       });
